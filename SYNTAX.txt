@@ -1,0 +1,20 @@
+DOCS
+(to see dependencies and .sh install methods (use wsl) scroll down)
+-AESCRYPT (fire lotusCMDremade.py aescrypt filename password buffersize)
+-AESDECRYPT (fire lotusCMDremade.py aesdecrypt filename password)
+-BLANKSLEEP (fire lotusCMDremade.py sleep seconds)
+-CURL (fire lotusCMDremade.py curl url_name) (deprecated, use geturlsrc)
+-GETURLSRC (fire lotusCMDremade.py getURLsrc urlexample.com)
+-GZIP (fire lotusCMDremade.py [gzip | ungzip] filename)
+-IMAGE (fire lotusCMDremade.py show imagename.imageext)
+-INIT (deprecated, for windows only)(fire lotusCMDremade.py init color title mode) ex. init 0b hi 475 does the following cmd commands:
+color 0b
+title hi
+mode 475
+cls
+and do 'goto restart' to restart
+-MSGBOX (fire lotusCMDremade.py msgbox title text)
+-SHASH (fire lotusCMDremade.py sha256hash content)
+-SORT (fire lotusCMDremade.py sort array keyword)
+-INZTALL (fire lotusCMDremade.py netdownload www.google.com googlesourcecode.html)
+You can also use these from \assets\apps\fireAdd\Alts\all.py incase your cat jumped on your keyboard
